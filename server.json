@@ -1,30 +1,30 @@
 {
-  "mcpName": "io.github.markswendsen-code/walgreens",
-  "name": "@striderlabs/mcp-walgreens",
+  "name": "io.github.markswendsen-code/walgreens",
   "version": "0.1.0",
-  "description": "MCP server connector for Walgreens — search products, manage prescriptions, cart, and checkout via browser automation",
-  "transport": "stdio",
-  "command": "npx",
-  "args": ["@striderlabs/mcp-walgreens"],
-  "tools": [
-    "status",
-    "login",
-    "logout",
-    "search",
-    "get_product",
-    "check_prescription_status",
-    "refill_prescription",
-    "add_to_cart",
-    "view_cart",
-    "remove_from_cart",
-    "set_store",
-    "check_store_availability",
-    "checkout"
-  ],
-  "repository": "https://github.com/markswendsen-code/mcp-walgreens",
+  "description": "MCP server connector for Walgreens \u2014 search products, manage prescriptions, cart, and checkout...",
+  "repository": {
+    "url": "https://github.com/markswendsen-code/mcp-walgreens",
+    "source": "github"
+  },
   "npm": "https://www.npmjs.com/package/@striderlabs/mcp-walgreens",
   "author": "Strider Labs <hello@striderlabs.ai>",
-  "homepage": "https://striderlabs.ai",
-  "license": "MIT",
-  "keywords": ["mcp", "walgreens", "pharmacy", "prescriptions", "healthcare", "ai-agent"]
+  "keywords": [
+    "mcp",
+    "walgreens",
+    "pharmacy",
+    "prescriptions",
+    "healthcare",
+    "ai-agent"
+  ],
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@striderlabs/mcp-walgreens",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
 }
